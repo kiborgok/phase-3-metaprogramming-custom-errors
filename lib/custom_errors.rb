@@ -28,8 +28,8 @@ end
 
 beyonce = Person.new("Beyonce")
 jayz = Person.new("Jay-Z")
-beyonce.get_married(jayz)
-puts jayz.partner.name
+beyonce.get_married("jayz")
+puts beyonce.name
 
 
 
